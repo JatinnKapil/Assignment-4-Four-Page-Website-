@@ -14,7 +14,7 @@ header {
     background-color:black;
     text-align:center;
     align-items:center;
-    border-bottom:1px solid seashell;
+    border-bottom:2px solid seashell;
 }
 
 header .row,
