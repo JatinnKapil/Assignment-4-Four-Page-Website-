@@ -48,6 +48,10 @@
     }
 
     @media (max-width: 500px) {
+      .image-container {
+        transform: scale(.7);
+        text-align: center;
+      }
       h1 {
         font-size: 36px;
         padding: 5px;
@@ -61,7 +65,9 @@
 </head>
 <body>
   <header>
-    <img src="./img/food-logo.png">
+   <div class="image-container">
+      <img src="./img/food-logo.png">
+    </div>
     <h1> Davie's Burger Blog</h1>
     <ul>
       <li><a href="#">ABOUT US</a></li>
